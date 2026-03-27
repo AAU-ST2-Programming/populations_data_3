@@ -11,19 +11,17 @@ Følg denne guide nøje for at være klar til undervisningen:
 ### 1. Literatur
 
 **Primær litteratur:**
-- Python-basics (fx lister, funktioner, løkker og simple datastrukturer) forudsættes kendt.
 - [Data Wrangling with Python af Jacek Gołębiewski (PDF)](https://datawranglingpy.gagolewski.com/datawranglingpy.pdf)
-  - 12.3 Classification tasks 
+  - 12.3 Classification tasks
+- [k-Nearest Neighbour Classifiers - A Tutorial](https://faculty.ist.psu.edu/vhonavar/Courses/dsmethods/knn.pdf)
 
 **Supplerende litteratur:**
 - [GeeksforGeeks: K-Nearest Neighbors (KNN) Algorithm](https://www.geeksforgeeks.org/k-nearest-neighbours/)
 - [TutorialsPoint: Machine Learning - KNN](https://www.tutorialspoint.com/machine_learning_with_python/machine_learning_with_python_knn_algorithm_finding_nearest_neighbors.htm)
+- 
 - [scikit-learn: model evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html)
 - [scikit-learn: KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
 
-**Undervisningsmateriale i repo:**
-- [Notebook: populations_data_3.ipynb](./populations_data_3.ipynb)
-  - Bruges som forelæsningsnoter og in-class gennemgang
 
 **Formål:** Forstå hvordan klassifikationsmodeller trænes, evalueres og fortolkes på populationsdata.
 
@@ -37,6 +35,8 @@ Følg denne guide nøje for at være klar til undervisningen:
 - Installer følgende extensions i Visual Studio Code:
   - `Python`
   - `jupyter`
+  - `scikit-learn`
+  - `pooch`
 
 ### 3. Download materialet
 > ```zsh
@@ -55,18 +55,6 @@ Følg denne guide nøje for at være klar til undervisningen:
 - Feature-skalering og dens effekt på afstandsbaserede modeller
 - Beslutningsgrænser og visuel fortolkning af modeller
 - Modelevaluering og krydsvalidering
-
----
-
-## Forventninger til forberedelse og undervisning
-
-- **Før/efter kursusgang:**
-  - Gennemgå tidligere kursusgange (vi bygger videre hver gang)
-  - Læs nyt materiale som beskrevet ovenfor
-- **Tidsforbrug:**
-  - 4 timers forberedelse (hjemme, før undervisning)
-  - 4 timers undervisning og gruppeopgaver
-  - 4 timers individuel opgaveregning (hjemme, efter undervisning)
 
 ---
 
